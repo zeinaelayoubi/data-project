@@ -9,8 +9,8 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">1 Month</span> Account
+            <span className="text-white">CycleIn</span> to our {" "}
+            <span className="text-white"> creative garage </span>
           </p>
         </div>
 
@@ -28,13 +28,13 @@ const Hero = () => {
           On the Go
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our user-friendly garage allows you to design your automobile
+          Our user-friendly garage allows you to design your bicycle
           on the phone, on the go.
         </p>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative `}>
+        <img src={"https://www.pngfind.com/pngs/m/189-1897274_wrench-vector-png-screwdriver-and-spanner-transparent-png.png"} alt="billing" className="w-[100%] h-[100%] background:" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
