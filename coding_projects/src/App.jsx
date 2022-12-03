@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Business, Navbar, Stats, Testimonials, Hero } from "./components";
 import ThreeDModel from "./components/ThreeDModel";
 
 const App = () => (
@@ -15,18 +15,13 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
-        <ThreeDModel />
         <Business />
-        <Billing />
-        <CardDeal />
+        <ThreeDModel />
         <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer />
       </div>
     </div>
   </div>
